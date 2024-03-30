@@ -6,5 +6,13 @@ export default defineNuxtConfig({
       '@nuxtjs/google-fonts',
       'nuxt-primevue'
   ],
-  css: ['primeicons/primeicons.css']
+  css: ['primeicons/primeicons.css'],
+  googleFonts: {
+      base64: true,
+      fontsDir: 'assets/fonts',
+      overwriting: true,
+      families: {
+          Inter: [300, 500, 800]
+      }
+  }
 })
