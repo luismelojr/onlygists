@@ -8,7 +8,7 @@ import WidgetCondensed from '~/modules/reports/components/Widget/Condensed/Conde
 <template>
   <PublicHeadline />
   <WidgetGroup>
-    <WidgetGroupLoader :loading="true" :amount="3">
+    <WidgetGroupLoader :loading="false" :amount="3">
       <WidgetCondensed label="Gists total" :value="10" />
       <WidgetCondensed label="Gists gratuitos" :value="7" />
       <WidgetCondensed label="Gists pagos" :value="3" />
