@@ -3,7 +3,7 @@ import Home from '@/modules/landing-page/screens/Home/Home.vue'
 </script>
 
 <template>
-  <Home />
+    <Home />
 </template>
 
 <style scoped></style>

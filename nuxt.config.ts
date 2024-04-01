@@ -18,4 +18,7 @@ export default defineNuxtConfig({
       from: path.resolve(__dirname, './assets/presets/lara/'),
     },
   },
+  imports: {
+    dirs: ['./composables/useMarkdown']
+  }
 })
